@@ -1,3 +1,4 @@
+
 # Containerized Web Platform
 
 A containerized web application environment built with Docker Compose, PostgreSQL, Django, React, and Nginx.
@@ -80,7 +81,7 @@ docker compose version
 ### Step 1: Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/2bammathurada/containerized-web-platform.git
 cd containerized-web-platform
 ```
 
@@ -112,9 +113,7 @@ Verify that all services are running and that PostgreSQL and the backend report 
 
 Open the application in a web browser:
 
-```text
 http://localhost:8080
-```
 
 ## 6. Service Configuration
 
@@ -226,7 +225,6 @@ The volume is mounted at:
 ```
 
 This allows database data to persist when containers are stopped or recreated.
-
 
 ## 10. Development Notes
 
